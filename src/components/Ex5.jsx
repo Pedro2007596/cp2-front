@@ -9,7 +9,11 @@ export default function Ex5() {
   return (
     <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex5 - Navbar Responsiva</h1>
-      
+      <div className="flex gap-2 flex-col md:flex-row ">
+        <button>Link 1</button>
+        <button>Link 2</button>
+        <button>Link 3</button>
+      </div>
     </div>
   );
 }
