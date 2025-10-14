@@ -9,7 +9,7 @@ export default function Ex5() {
   return (
     <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex5 - Navbar Responsiva</h1>
-      {/* Resolva aqui */}
+      
     </div>
   );
 }
