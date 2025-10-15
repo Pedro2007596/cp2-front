@@ -1,15 +1,20 @@
 @import "tailwindcss";
 
-@theme {
-  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
-  @keyframes fade-in-scale {
+.spin{
+    animation: balanco 1s ease infinite
+}
+
+  @keyframes balanco {
+    50% {
+      transform: rotate(25deg);
+    }
     0% {
-      opacity: 0;
-      transform: scale(0.95);
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-25deg);
     }
     100% {
-      opacity: 1;
-      transform: scale(1);
+      transform: rotate(0deg);
     }
   }
-}

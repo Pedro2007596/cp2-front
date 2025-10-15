@@ -15,10 +15,10 @@ export default function Ex7() {
         <button className="w-[50px] h-[50px] bg-red-500 rounded border">Sair</button>
       </header>
       <main className="grid grid-cols-1 gap-4 md:grid-cols-2">
-        <div className="shadow-x border rounded p-2 w-[80px]">Card 1</div>
-        <div className="shadow-x border rounded p-2 w-[80px]">Card 2</div>
-        <div className="shadow-x border rounded p-2 w-[80px]">Card 3</div>
-        <div className="shadow-x border rounded p-2 w-[80px]">Card 4</div>
+        <div className="shadow-xl border rounded p-2 w-[80px]">Card 1</div>
+        <div className="shadow-xl border rounded p-2 w-[80px]">Card 2</div>
+        <div className="shadow-xl border rounded p-2 w-[80px]">Card 3</div>
+        <div className="shadow-xl border rounded p-2 w-[80px]">Card 4</div>
       </main>
     </div>
   );
